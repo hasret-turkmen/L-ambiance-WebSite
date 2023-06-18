@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    
+  }
+  
+  html {
+    font-size: 62.5%;
+    background-image: url(images/Funken_Lodge_HGR_121846_1920_Photo_Agurtxane_Concellon.jpg);
+    background-repeat: no-repeat;
+  }
+
+  form{
+    text-align: center;
+    color: rgb(77, 19, 19);
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .page{
+    color:rgb(77, 19, 19);
+    border: solid black;
+    padding: 3rem;
+    background: rgba(255, 228, 196, 0.45);
+    margin-top: 20rem;
+  }
+
+  .header{
+    text-align: center;
+    color: rgb(77, 19, 19);
+    font-size: 4rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 900;
+  }
+
+.confirmation{
+  color:rgb(255, 228, 196);
+    border: solid black;
+    padding: 3rem;
+    background: rgba(77, 19, 19, 0.6);
+    margin-top: 20rem;
+    align-items: center;
+}
+
+.confirmed{
+  text-align: center;
+    color: rgb(255, 228, 196);
+    font-size: 4rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 900;
+}
+
+#confirmation-message{
+  color: rgb(255, 228, 196);
+  padding-top: 5.4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 3rem;
+}
+
+.Subbmit{
+    margin-top: 10rem;
+    font-size: 1.3rem;
+    margin-left: 26%;
+    padding: 1rem;
+    background-color: rgb(255, 228, 196);
+}

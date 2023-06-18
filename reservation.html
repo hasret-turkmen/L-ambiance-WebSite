@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="reservation.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+  <title>Reservation Form</title>
+</head>
+<body>
+    <section class="page">
+  <h1 class="header">Reservation Form</h1>
+  <form id="reservation-form">
+    <label for="name"> <b>Name:</b> </label>
+    <input type="text" id="name" name="name" required><br>
+<br>
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" name="surname" required><br>
+    <br>
+    <label for="surname">Phone no:</label>
+    <input type="text" id="surname" name="surname" required><br>
+    <br>
+    <label for="guests">Number of guests:</label>
+    <input type="number" id="guests" name="guests" required><br>
+    <br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name ="date" required> <br>
+    <br>
+    <label for="seating-plan">Seating plan:</label>
+    <select id="seating-plan" name="seating-plan" required>
+      <option value="">--Please choose an option--</option>
+      <option value="indoor">Indoor</option>
+      <option value="outdoor">Outdoor</option>
+    </select><br>
+    <br>
+    <label for="request">Personal Request if any:</label>
+    <input type="text" id="request" name ="request" > <br>
+    <br>
+    
+    <button type="submit">Submit</button>
+  </form>
+</section>
+  <script src="reservation.js"></script>
+</body>
+</html>

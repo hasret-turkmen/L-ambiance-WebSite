@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  .a{
+    background-color:  rgb(64, 16, 16);
+  }
+  .About-Us-Section{
+    font-size: 3rem;
+    color: rgb(202, 198, 194);
+    text-align: center;
+  }
+  
+  .About-Us-Section-Heading{
+    font-size: 7rem;
+    text-align: center;
+    color: rgb(202, 198, 194);
+    padding-top: 3rem;
+  }
+
+  
+  p{
+    color: #8f8f8f;
+  }
+ 
+  #title{
+    background-color: rgb(64, 16, 16);
+  }
+  
+  .container-fluid{
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 10%;
+  }
+ 
+  
+  /* title image*/
+  .title-image{
+    width: 37%;
+    float: right;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .firstText{
+    padding-right: 1rem;
+    padding-top: 9rem;
+    font-size: 1.9rem;
+  }
+
+  @media screen and (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+    .title-image {
+      width: 60%;
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  .row{
+    padding: 1% 6% 9% 6%;
+    font-size: 180%;
+  }
+  
+  
+  #features{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background-color: rgb(177, 163, 159);
+  }
+
+  .feature-image{
+        width: 44%;
+        float: left;
+        display: block;
+        padding-right: 2rem;
+
+  }
+  .secondText{
+    padding-left: 2rem;
+    padding-top: 14rem;
+    font-size: 1.9rem;
+    color: rgb(64, 16, 16);
+  }
+  
+  
+  
